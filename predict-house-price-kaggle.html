@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Thao Ho</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myTogglerNav"
+          aria-controls="myTogglerNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand"
+          ><img class="logo" src="./img/logo.jpg"
+        /></a>
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#introduction">Introduction</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </div>
+          <!-- navbar -->
+        </div>
+        <!-- collapse -->
+      </div>
+      <!-- container -->
+    </nav>
+    <!-- nav -->
+    <div class="jumbotron jumbotron-fluid m-0 d-flex" id="introduction">
+      <div class="container" >
+        <h1 class="m-5">About Me</h1>
+        <p class="m-5">
+          An undergraduate student in Business Information Technology with one year of hands on data   
+          analytics. Passionate about working with large amounts of data, turn this data into information,
+          information to insight and insight to business decisions. I also have a keen interest in the field of 
+          data visualizations and fascinated by the power to compress complex datasets into approachable and appealing 
+          graphics 
+        </p>
+        <ul class="d-flex justify-content-center p-3">
+          <li class="mr-5">
+            <a href="https://github.com/thaohh69"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li class="mr-5">
+            <a href="mailto:thaohohoangphuong24@gmail.com"
+              ><i class="fas fa-mail-bulk"></i
+            ></a>
+          </li>
+          <li class="mr-5">
+            <a href="https://www.linkedin.com/in/thao-hoang-ho/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+        <a
+          href="mailto:thaohohoangphuong24@gmail.com"
+          class="btn btn-dark float-right mr-5 "
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+    
+
+    <!-- Kaggle Project -->
+    <div class="project">
+        <div class="summary">
+           <div>
+                 <h3> Goal</h3>
+                 <p> This project aims to focus on predicting price for both house buyers and house seller. Asking the right questions and analyzing the data will give relevant insights. The goal is to answer the right question that will help client to find their dream house with reasonalble price and seller to make good decision in investment</p>
+           </div>
+           <div>
+              <h3>Result</h3>
+              <p>
+                        Results are presented in a report with prediction, recommendations and follow-up steps. Based on this report, clear and well-founded decisions can be made, costs can be saved and processes optimized 
+              </p>
+           </div>
+           <div>
+              <h3>Project Duration</h3>
+              <p>	 Project duration varies between 2 weeks and 3 months. In order to carry out the project as quickly as possible, it is important that the relevant data is available, complete and clean
+  
+              </p>
+           </div>
+  
+        </div>
+        <div class="content">
+           <h3>Analyzing the Test Variable – Sale Price</h3>
+           <p>
+                 The key variable in this study is Sale Price. Let’s take a glance at description of Sale Price that we could see an average house price is $180921
+           </p>
+           <img src="./images/kaggle1.png"/>
+           <h3>Multivariables Analysis</h3>
+           <p>
+                 There are two types of feature in housing data : categorical and numerical
+           </p>
+           <p>
+                 In terms of categorical data, it is like labels and follows some kind of pattern. For example, in this study we have feature “Downtown” and it consists of other categorical responses – “Yes”, “No”, “Near”, “Far”. The price of house then could be affected by these features ( high or low)
+           </p>
+           <img src="./images/kaggle2.png"/>
+           <p>
+                 Numerical data is in form of number which could follow linear regression theory. For example, the square of area could be in relationship with housing price. Larger the house is, more expensive the cost of it is!
+           </p>
+           <img src="./images/kaggle3.png"/>
+           <img src="./images/kaggle4.png"/>
+           <p>
+                 With the total of 80 features, we could find out which feature is the most related to housing price by creating correlation matrix. Check it out below!
+           </p>
+           <img src="./images/kaggle5.png"/>
+           <p>
+                 It seems like a mess with 80 features. Let’s limit it into top 10 features most related to housing price (Sale Price)
+           </p>
+        </div>
+     </div>
+
+
+    
+      <!-- content container -->
+    </div>
+    <div id="strength" class=" jumbotron jumbotron-fluid m-0 text-center">
+      <div class="container">
+        <h1 class="m-5">My Strength</h1>
+        <div class="row">
+          <div class=" col-md-4 p-2">
+              <i class="far fa-lightbulb"></i>
+            <h2  class="mb-4">Creative</h2>
+            <p>I have a lot of 'a ha' moments that do more good than harm.</p>
+          </div>
+          <div class=" col-md-4  p-2">
+              <i class="far fa-comments"></i>
+            <h2 class="mb-4">Communicative</h2>
+            <p>Half of my experience horns my technical skills, the other half tells me the importance of communication. With it, work is more efficient and workplace is more than a place to work.</p>
+          </div>
+          <div class=" col-md-4 p-2">
+              <i class="far fa-chart-bar"></i>
+            <h2 class="mb-4">Analytical</h2>
+            <p> I love numbers and evidence like they are my religion. If the numbers tell me I am doing alright, I know that I am just fine.  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="jumbotron jumbotron-fluid m-0 project-container p-0">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p><i class="far fa-copyright mr-2"></i>2019 All Rights Reserved.</p>
+        <img class="logo" src="./img/logo.jpg" />
+      </div>
+    </div>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
