@@ -41,6 +41,9 @@ h1 {
     transition-timing-function: ease-out;
     transition-duration: 350ms;
 }
+.project-details img {
+    margin: 1em;
+    }
 .title {
     display: block;
     position: absolute;
