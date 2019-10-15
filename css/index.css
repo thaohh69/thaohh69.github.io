@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    font-size: 1.25rem;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 500;
+} 
+h1 {
+    font-weight: 600;
+}
+#introduction p, #introduction a {
+    font-size:1.5rem;
+}
+
+#strength {
+    background: #40e0d0;
+
+}
+#projects {
+    background: #fff;
+}
+#introduction {
+    background: #ef476f;
+    color: white;
+    
+}
+.project img{
+    height: 100%;
+    opacity:1;
+    width: 100%;
+    display: block;
+}
+.project:hover img {
+    transition-property: all;
+    transform:  scale(1.1);
+    opacity: 0.2;
+    transition-timing-function: ease-out;
+    transition-duration: 350ms;
+}
+.title {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin: -20px auto 0 !important;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+.inside {
+    background-color: #515151;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.title span {
+    display: inline-block;
+    padding: 10px 12px 12px;
+    border: 2px solid #fff;
+    margin: 0 auto !important;
+}
+
+.project:hover .title {
+    opacity: 1;
+}
+#contact {
+    background-color: #343a40 ;
+    color:#fff;
+}
+#contact p {
+    padding: 1rem 1rem;
+}
+li {
+    font-size:2rem;
+    list-style:none;
+}
+ul a {
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+    width: 2rem;
+}
+
+#strength i {
+    font-size: 3rem;
+}
